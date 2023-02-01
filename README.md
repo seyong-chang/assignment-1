@@ -1,0 +1,3 @@
+Seyong Chang
+
+I am a senior at Brandeis University. I am majoring in HSSP and minoring in Business Management. I am currently waiting to hear back on the master of public health programs I applied to, but thankfully and happily, I have heard back and was accepted into UNC and Columbia University's MPH programs. Although I am done with the HSSP requirements, I am taking this course because i want to be fully prepared once my graduate program starts, regardless of where I go, and I believe that learning how to code efficiently is a highly invaluable skill in today's professional environment. In my free time, I love to read science fiction, play games like Civilization, and been walking as exercise more recently. 
