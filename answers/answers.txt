@@ -28,3 +28,7 @@ git status
 
 git pull origin main
 git push -u origin main #will push local repo changes to remote repo
+
+$ cd /c/Users/seyon/Documents/GitHub/assignment-1/assignment-1-main-main/data #1 line navigation from answers directory to data directory
+
+
