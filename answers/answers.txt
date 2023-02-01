@@ -1,3 +1,15 @@
 $ mkdir ~/answers
-$ cd ~/answers.txt
+$ ls -F
+$ nano answers.txt
 
+#IF NEEDED TO MOVE:
+mv answers.txt answers
+ls -F answers
+
+Absolute path: C:\Users\seyon\Documents\GitHub\assignment-1\answers\answers.txt
+
+$ ls -al is the command used to show all files in a directory, including hidden ones.
+
+$ ls current_directory non_current_directory #pass the path through command ls
+
+In bash, the rm command is used to delete files and folders. It is dangerous, because there is not undo/"undelete" option, so careless use of it can lead to removing sensitive system files, causing system instability. One scenario with unintended consequences might be when accidentally typing the wrong command or forgetting what a specific rm command does. For example, accidentally using -rf /(root) will delete files recursively, starting from the root directory, which can be disasterous. 
