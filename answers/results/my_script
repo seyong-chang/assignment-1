@@ -2,3 +2,6 @@
 tsv="${1/.csv/.tsv}"
 sed "s/,/\t/g" $1 > $tsv
 awk -F '\t' '{print $1}' $tsv
+
+chmod +x my_script.sh
+./my_script.sh
