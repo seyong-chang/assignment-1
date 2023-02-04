@@ -1,34 +1,45 @@
-mkdir ~/answers
+1. mkdir ~/answers
 ls -F
-nano answers.txt
 
+2. nano answers.txt
 #IF NEEDED TO MOVE:
 mv answers.txt answers
 ls -F answers
 
-Absolute path: C:\Users\seyon\Documents\GitHub\assignment-1\answers\answers.txt
+3. nano answers.txt
 
-ls -al is the command used to show all files in a directory, including hidden ones.
+4. Absolute path: C:\Users\seyon\Documents\GitHub\assignment-1\answers\answers.txt
 
-ls current_directory non_current_directory #pass the path through command ls
+5. "ls -al" is the command used to show all files in a directory, including hidden ones.
 
-In bash, the rm command is used to delete files and folders. It is dangerous, because there is not undo/"undelete" option, so careless use of it can lead to removing sensitive system files, causing system instability. One scenario with unintended consequences might be when accidentally typing the wrong command or forgetting what a specific rm command does. For example, accidentally using -rf /(root) will delete files recursively, starting from the root directory, which can be disasterous. 
+6. "ls current_directory non_current_directory" #passes command ls through a path to display the files of another directory in addition to our current working directory.
 
-cd /c/Users/seyon/Documents/GitHub/assignment-1/answers
-mkdir results #creates new working directory called "results"
-cd /c/Users/seyon/Documents/GitHub/assignment-1/answers/results
-pwd #to check current working directory
-mkdir sh my_script.sh #creates new scripts file called "my_script"
-nano my_script
+7. In bash, the rm command is used to delete files and folders. It is dangerous, because there is not undo/"undelete" option, so careless use of it can lead to removing sensitive system files, causing system instability. One scenario with unintended consequences might be when accidentally typing the wrong command or forgetting what a specific rm command does. For example, accidentally using -rf /(root) will delete files recursively, starting from the root directory, which can be disasterous. 
 
-git add my_script
-git status
-git commit -m "added my_script file"
-git status
+8. cd /c/Users/seyon/Documents/GitHub/assignment-1/answers
+mkdir -p results
+cd ~/results
 
-git pull origin main
-git push -u origin main #will push local repo changes to remote repo
+9. touch my_script.sh
+nano my_script.sh
 
-$ cd /c/Users/seyon/Documents/GitHub/assignment-1/assignment-1-main-main/data #1 line navigation from answers directory to data directory
+10. chmod 755 my_script.sh
 
+11. cd /c/Users/seyon/Documents/GitHub/assignment-1/assignment-1-main-main/data 
 
+12. ls -1 | xargs wc -w | sort -r | head -3 | tail -1
+
+13. cd data
+for files in *.csv
+do
+    bash ./my_script.sh /c/Users/seyon/Documents/assignment-1/assignment-1-main-main/data
+done
+
+14. cd data 
+unzip '*.zip' -d /c/Users/seyon/Documents/GitHub/assignment-1/assignment-1-main-main/data/unzipped-files
+
+15. cd /c/Users/seyon/Documents/GitHub/assignment-1/assignment-1-main-main/data
+rm *.zip
+
+16. cd unzipped-files
+cp annual_aqi_by_county_2000.csv annual_aqi_by_county_2001.csv annual_aqi_by_county_2002.csv annual_aqi_by_county_2003.csv /c/Users/seyon/Documents/GitHub/assignment-1/answers/results
